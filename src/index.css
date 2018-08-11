@@ -15,11 +15,11 @@ body {
 
 .parallaxSecond {
   background-image: url('./assets/img/bg.jpg');
-  min-height: 100%;
+  min-height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 100px;
+  display: flex;
 }
 
 .test {
@@ -93,4 +93,57 @@ span {
   to {
     opacity: .0;
   }
+}
+
+.logoTypes {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.logoTypeCaption {
+  width: 50%;
+}
+
+
+.test1 {
+  height: 220px;
+  width: 150px;
+  flex-wrap: wrap;
+  font-size: 200%;
+  text-align: center;
+  color: white;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 10px 10px;
+}
+
+.firstLogo {
+  background-image: url('./assets/img/elingrater.png');
+}
+
+.secondLogo{
+  background-image: url('./assets/img/samgrater.png');
+}
+
+.thirdLogo {
+  background-image: url('./assets/img/allagrater.png');
+}
+
+.forthLogo {
+  background-image: url('./assets/img/nodeLogo.png');
+  background-size: 133%;
+  background-position: -20px 20px;
+}
+
+.fifthLogo {
+  background-image: url('./assets/img/reactLogo.png');
+}
+
+.sixthLogo {
+  background-image: url('./assets/img/gitLogo.png');
+  background-position: 0px, 30px;
 }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import images from '../libs/images';
 import '../index.css';
 
-let {elinProfile} = images
+let {elinProfile, HTMLicon} = images
 
 export default class Content extends Component {
 
@@ -11,10 +11,11 @@ export default class Content extends Component {
       return (
         <div>
           <div className="parallax" id="top">
-            <div className="caption">
+          <div className="caption">
               <div className="column-one">
-                <p>Hi my name is Elin, and this is my portfolio site<span>|</span></p>
+                {/*   <p>Hi my name is Elin, and this is my portfolio site<span>|</span></p> */}
               </div>
+
           </div>
         </div>
           <section className="test" id="page">
@@ -28,7 +29,32 @@ export default class Content extends Component {
             </div>
           </section>
           <div className="parallaxSecond">
-        			<h1>lalalalalal</h1>
+            <div className="logoTypes">
+              <div className="test1 firstLogo">
+
+              </div>
+              <div className="test1 secondLogo">
+
+              </div>
+              <div className="test1 thirdLogo">
+
+              </div>
+              <div className="test1 forthLogo">
+
+              </div>
+              <div className="test1 fifthLogo">
+
+              </div>
+              <div className="test1 sixthLogo">
+
+              </div>
+            </div>
+            <div className="logoTypeCaption">
+              <p>Hej text</p>
+            </div>
+
+
+
         	</div>
           <section className="infoPage" id="">
           </section>
