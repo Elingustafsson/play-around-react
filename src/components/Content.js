@@ -22,7 +22,7 @@ export default class Content extends Component {
               <img className="elinProfile" src={elinProfile} />
             </div>
             <div className="infoCaption">
-              <p>My name is Elin, I'm 25 years old and I am studying front-end development.
+              <p>My name is Elin, Im 25 years old and I am studying front-end development.
                 I have experience working with React, HTML, CSS, dittan dattan.
                 I also enjoy running and swimming and jumping.</p>
             </div>
