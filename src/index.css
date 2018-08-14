@@ -108,7 +108,6 @@ span {
   width: 50%;
 }
 
-
 .test1 {
   height: 220px;
   width: 150px;
@@ -121,29 +120,60 @@ span {
   margin: 10px 10px;
 }
 
-.firstLogo {
+.logo0 {
   background-image: url('./assets/img/elingrater.png');
 }
 
-.secondLogo{
+.logo1{
   background-image: url('./assets/img/samgrater.png');
 }
 
-.thirdLogo {
+.logo2 {
   background-image: url('./assets/img/allagrater.png');
 }
 
-.forthLogo {
+.logo3 {
   background-image: url('./assets/img/nodeLogo.png');
   background-size: 133%;
   background-position: -20px 20px;
 }
 
-.fifthLogo {
+.logo4 {
   background-image: url('./assets/img/reactLogo.png');
 }
 
-.sixthLogo {
+.logo5 {
   background-image: url('./assets/img/gitLogo.png');
   background-position: 0px, 30px;
+}
+
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 300px;
+  background-color: blue;
+}
+
+.footerLogo {
+  margin-top: 50px;
+  height: 15%;
+  width: 15%;
+}
+
+.testaren{
+  height: 75%;
+  width: 100%;
+}
+
+.testaren11 {
+  text-align: center;
+  width:
+}
+
+.lala {
+  background-color: lightblue;
+  height: 100px;
+  width: 100%;
 }
