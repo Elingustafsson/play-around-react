@@ -1,0 +1,14 @@
+Colors
+http://paletton.com/#uid=13l0u0kllllbQv8gAqfq5gruQby
+
+
+
+ bas: #3A747C
+
+ #86AFB5
+
+ #5A8C93
+
+ #205C64
+
+ #0D434B

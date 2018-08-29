@@ -32,25 +32,22 @@ export default class Content extends Component {
     }
 
     render() {
-      const a = [0,1,2,3,4,5,6,7];
+      const a = [0,1,2,3,4,5];
       return (
         <div>
           <div className="parallax" id="top">
           <div className="caption">
               <div className="column-one">
-                {/*   <p>Hi my name is Elin, and this is my portfolio site<span>|</span></p> */}
+               <p>Hi my name is Elin, this my portfolio site<span>|</span></p>
               </div>
 
           </div>
         </div>
           <section className="test" id="page">
             <div className="infoPage" >
-              <img className="elinProfile" src={elinProfile} />
             </div>
             <div className="infoCaption">
-              <p>My name is Elin, Im 25 years old and I am studying front-end development.
-                I have experience working with React, HTML, CSS, dittan dattan.
-                I also enjoy running and swimming and jumping.</p>
+              <p>My name is Elin, Im 25 years old and I am studying front-end development.</p>
             </div>
           </section>
           <div className="parallaxSecond">
@@ -58,10 +55,11 @@ export default class Content extends Component {
               {a.map(i => {
                 return <div className={'test1 logo' + i} onClick={() => this.elinsFunc(i)}></div>
               })}
-
             </div>
             <div className="logoTypeCaption">
+              <div className="captionText">
               <p>{this.state.test}</p>
+              </div>
             </div>
         	</div>
           <section className="infoPage" id="">

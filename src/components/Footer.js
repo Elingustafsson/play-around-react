@@ -20,7 +20,9 @@ class Footer extends Component {
               <img className="testaren" src={HTMLicon}></img>
             </div>
           </div>
-        <div className="lala"></div>
+        <div className="lala">
+          <p>Elin Gustafsson</p>
+        </div>
         </div>
       )
     }
