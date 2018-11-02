@@ -1,15 +1,62 @@
+@import "https://fonts.googleapis.com/css?family=Lobster";
+@import "https://fonts.googleapis.com/css?family=Cabin";
+
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+p {
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  position: relative;
+  top: 20px;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 99;
+  cursor: pointer;
+  list-style-type: none;
+  font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.avatar {
+  width: 5vw;
+  height: 5vw;
+}
+
+.navbar1 {
+  font-size: 4vw;
+  margin-right: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar1 > p {
   margin: 0;
   padding: 0;
 }
 
-p {
-  font-family: "Courier NEW";
-  letter-spacing: 2px;
+.navbar2 {
+  margin-right: 2%;
+  font-size: 2vw;
+}
+
+.navbar3 {
+  font-size: 2vw;
 }
 
 .parallax {
-  background-image: url('./assets/img/bg1.jpg');
+  background-image: url('./assets/img/color.png');
+  background-color: white;
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -26,14 +73,14 @@ p {
 }
 
 .test {
-display: flex;
-align-items: center;
-flex-direction: row;
-flex-wrap: wrap;
-height: 500px;
-background-color: white;
-z-index: 10;
-position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  background-color: white;
+  z-index: 10;
+  position: relative;
 }
 
 .infoPage {
@@ -58,21 +105,21 @@ position: relative;
 }
 
 .caption {
+  display: flex;
   position: fixed;
   text-align: center;
-  top: 30%;
+  top: 25%;
   z-index: 0;
-  width: 50%;
+  width: 100%;
+  justify-content: center;
 }
 
 .column-one {
-  width: 100%;
-  left: 50%;
   padding: 0 20% 0 20%;
 }
 
 .column-one>p {
-  font-size: 4vw;
+  font-size: 3vw;
   overflow: hidden;
 }
 

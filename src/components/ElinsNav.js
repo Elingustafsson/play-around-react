@@ -1,38 +1,26 @@
 import React, { Component } from "react";
-import {Navbar, Nav, NavItem } from 'reactstrap';
+import '../index.css';
+import images from '../libs/images';
+
+let {avatar} = images
+
+
 
 export default class ElinsNav extends Component {
 
     render() {
       return (
-        <div style={styles.wrapper}>
-          <ul style={styles.navbar}>
-            <li>Link 1</li>
-            <li>Link 2</li>
-            <li>Link 3</li>
+        <div class="wrapper">
+          <ul class="navbar">
+
+            <li class="navbar1"><img class="avatar" src={avatar}/> <p>Elin</p></li>
+            <li class="navbar2">Projects</li>
+            <li class="navbar3">Contact</li>
           </ul>
         </div>
       )
 }
 }
 
-let styles = {
-  navbar: {
-    display: 'flex',
-    position: 'fixed',
-    left: '0',
-    right: '0',
-    overflow: 'auto',
-    Zindex: '99',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    textAlign: 'center',
-    cursor: 'pointer',
-    listStyleType: 'none',
-    letterSpacing: '3px'
-  },
-  wrapper: {
-    position: 'relative',
-    top: '20px'
-  }
-}
+
+// <img src={images}></img>
